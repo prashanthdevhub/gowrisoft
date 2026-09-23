@@ -25,8 +25,8 @@
         die($output); //exit script outputting json data
     }
  
-    //Sanitize input data using PHP filter_var().
-    $name      = filter_var($name, FILTER_SANITIZE_STRING);
+    //Sanitize input data.
+    $name      = htmlspecialchars(strip_tags($name), ENT_QUOTES, 'UTF-8');
     $email_address   = filter_var($email, FILTER_SANITIZE_EMAIL);
     $subject         = "Student career info request";
    
@@ -67,7 +67,15 @@
         }
          
         //read from the uploaded file & base64_encode content for the mail
+        if ($file_size <= 0) {
+            $output = json_encode(array('type'=>'error', 'text' => 'Uploaded file is empty'));
+            die($output);
+        }
         $handle = fopen($file_tmp_name, "r");
+        if ($handle === false) {
+            $output = json_encode(array('type'=>'error', 'text' => 'Could not read uploaded file'));
+            die($output);
+        }
         $content = fread($handle, $file_size);
         fclose($handle);
         $encoded_content = chunk_split(base64_encode($content));
@@ -119,6 +127,7 @@
     {
 
         $eol = "\r\n";
+        $body = "";
 
         $headers = "From: GowriSoftSolutionCarrers <info@gowrisoft.com>" . $eol;
         $headers .= "Reply-To: ". strip_tags($email_address) . "\r\n";
@@ -128,6 +137,7 @@
 
     }
 
+    $send_mail = false;
     if($flag){
         $send_mail = mail($to_email, $subject, $body, $headers);
     }
