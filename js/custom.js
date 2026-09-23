@@ -154,7 +154,7 @@ $(document).ready(function ($) {
         form_data.append('file', file_data);
         if (file_data != null || file_data != undefined) {
             $.ajax({
-                url: '/sendCareermail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&ext=' + ext + '&msg=' + msg,
+                url: 'sendCareermail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&ext=' + ext + '&msg=' + msg,
                 dataType: 'text',
                 cache: false,
                 contentType: false,
