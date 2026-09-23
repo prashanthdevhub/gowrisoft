@@ -1,0 +1,394 @@
+.navbar .navbar-brand{
+    height: 95px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.noPaddingNav {
+    padding: 0 !important;
+}
+
+
+.fl{
+    float: left;
+}
+
+.compName{
+    display: table;
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.bgBlue{
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+}
+
+.bgNone{
+    background: none !important;
+}
+
+.nav{
+    margin-top: 6px;
+}
+
+.mega-menu {
+    width: 1000%;
+    left: -710% !important;
+}
+
+
+.mega-menu h6{
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.txtDeskCenter{
+    text-align: center;
+}
+
+.navbar .navbar-nav .dropdown-menu{
+    border-top: 5px solid;
+}
+
+.aboutPadding{
+    padding: 0 0 90px 0;
+}
+
+.course-info-icon{
+    font-size: 3rem;
+    float: left;
+}
+
+.elh-objective-icon img{
+    margin: 0;
+    width: 55px;
+    float: left;
+    padding: 40px 0px 0px;
+}
+
+.elh-footer-widgets .widget-title{
+    color: #fff;
+}
+
+.elh-footer-lower-area{
+    background: #000;
+}
+
+.colorWhite{
+    color: #4285f4 !important;
+}
+.elh-objective{
+    display: table;
+}
+
+.p-t-25{
+    padding-top: 25px;
+}
+
+.resumeUpload{
+    border: none !important;
+    padding-left: 0 !important;
+}
+
+.floatLeft{
+    float: left;
+}
+
+::placeholder {
+    color: #222;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #222;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #222;
+  }
+
+  input,textarea{
+      background: #fff !important;
+      color: #222 !important;
+  }
+
+  input:focus{
+    outline: none !important;
+    border:1px solid #222 !important;
+  }
+
+  textarea:focus{
+    border:1px solid #222 !important;
+  }
+
+  .submitButton,.submitButton:focus{
+      border: 1px solid #fff !important;
+      color: #fff !important;
+  }
+
+  .submitButton:hover{
+    background: #fff;
+    color: #222 !important;
+    border: 1px solid #222 !important;
+  }
+
+
+  .elh-page-header .elh-overlay {
+    padding-top: 50px;
+    padding-bottom: 55px;
+  }
+
+  .elh-info-box{
+      border: none;
+      padding-bottom: 30px;
+  }
+
+  #careersForm input:hover, #careersForm input:focus, #careersForm textarea:hover, #careersForm textarea:focus{
+    border: 1px solid #b4a9a9 !important;
+  }
+
+  #careersForm .resumeUpload:focus,#careersForm .resumeUpload:hover{
+      border: none !important;
+  }
+
+  #footerContactForm .input-success{
+      color: #fff !important;
+  }
+
+  .careerSubmitbtn:hover{
+    border-color: #4285f4 !important;
+    color: #fff !important;
+  }
+
+  .modal-body td a {
+    padding: 0 20px 0 0;
+  }
+
+  #resume{
+    border: none !important;
+}
+  #footerContactForm input, #footerContactForm textarea, #careersForm input, #contactForm select, #careersForm textarea, #contactForm input, #contactForm textarea{
+      border-radius: 5px !important;
+  }
+
+  #careersForm input, #careersForm textarea, #contactForm input, #contactForm textarea,  #contactForm select{
+      border: 1px solid #e7e7e7;
+  }
+
+
+  .mega-menu .col-md-4:nth-child(4){
+    padding-top: 86px;
+  }
+
+  .elh-banner .elh-banner-item {
+    height: 450px;
+  }
+
+  .top-block.top-socials a {
+    padding: 0 5px;
+  }
+
+  .d-xs-block {
+      display: none;
+  }
+
+  .d-xs-none {
+    display: block;
+  }
+
+  .top-socials a {
+    font-size: 1.3em;
+  }
+
+  .bottom-social-header {
+      margin-bottom: 5px !important;
+  }
+
+  .top-block.bottom-socials a {
+    color: #fff;
+    padding-right: 1.2em;
+    font-size: 2em;
+}
+
+.elh-objectives {
+    padding-bottom: 48px;
+}
+
+.colorGrey, .colorGrey a {
+    color: rgba(255, 255, 255, 0.5) ;
+}
+
+.footer-menu .colorGrey a:hover {
+    color: #4285f4 !important;
+}
+
+.footer, .footer a, .custom-menu li a, .about_widget {
+    color: #fff;
+}
+
+  /* Media queries start */
+
+  @media only screen and (max-width:620px) {
+    .elh-banner .elh-banner-item {
+        height: 133px;
+      }
+  }
+
+  @media only screen and (min-width: 621px) and (max-width:769px) {
+    .elh-banner .elh-banner-item {
+        height: 240px;
+      }
+  }
+
+  @media only screen and (min-width: 1023px) and (max-width:1120px) {
+    .elh-banner .elh-banner-item {
+        height: 320px;
+      }
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .navbar .navbar-brand img {
+        height: 70%;
+        width: auto;
+    }
+    .nav {
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 425px) and (min-width: 319px) {
+    .navbar .navbar-brand img {
+        height: 50%;
+    }
+    .nav {
+        margin-top: 5px;
+    }
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .d-xs-none {
+        display: none !important;
+    }
+
+    .d-xs-block {
+        display: block !important;
+    }
+
+    .noPaddingNav {
+        padding: 0 10px !important;
+    }
+  }
+
+
+
+  .header {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    fill: white;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-header {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+.btn-gssSubmit {
+
+}
+
+.btn-gssSubmit:hover {
+    color: #fff !important;
+    border-color: #e2e2e2;
+}
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .content {
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
